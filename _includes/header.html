@@ -19,7 +19,7 @@
         <a href="{{ site.baseurl | append: '/blog/'}}">Blog</a>
       </div>
     </nav>
-    <!-- {% if include.avatar %}
+    {% if include.avatar %}
     <div class="wrapper">
         <div class="author">
           <a href="{{ site.baseurl | append: '/' }}">
@@ -28,6 +28,6 @@
           </a>
           <h2 class="description">{{site.description}}</h2>
         </div>
-    </div>{% endif %} -->
+    </div>{% endif %}
   {% unless include.avatar %}</div>{% endunless %}
 </header>
