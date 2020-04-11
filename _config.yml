@@ -1,12 +1,12 @@
 # Site settings
-title: Emping
-email: your-email@domain.com
+title: 奋发小刺猬
+email: surecn@163.com
 description: > # this means to ignore newlines until "baseurl:"
   Let's Eat!!.
 baseurl: "" # the subpath of your site, e.g. /newpath-for-emping
-url: "http://example.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://surecn.github.io" # the base hostname & protocol for your site
+twitter_username: surecn
+github_username:  surecn@163.com
 GoogleAnalytics: UA-xxxxxx-x
 
 twitter:
