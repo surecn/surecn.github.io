@@ -1,6 +1,5 @@
 ---
 layout: default
-avatar: false
 permalink: /
 ---
 {{% for post in site.posts limit: 2 %}}
@@ -12,4 +11,3 @@ permalink: /
 
 <br/>
 {{% endfor %}}
-<a class="wrapper">更多>></a>
