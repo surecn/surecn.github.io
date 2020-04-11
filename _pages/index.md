@@ -12,7 +12,7 @@ You can use this page to showcase your work, portfolio/project, your Latest post
 <h2>
     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 </h2>
-{{ post.date | date: "%b %-d, %Y" }}
+<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 <p class="description">
     {% if post.description %}
         {{ post.description | strip_html | strip_newlines | truncate: 250 }}
