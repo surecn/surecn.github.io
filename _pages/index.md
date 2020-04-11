@@ -1,6 +1,5 @@
 ---
 layout: default
-avatar: true
 permalink: /
 ---
 {{% for post in site.posts limit: 2 %}}
