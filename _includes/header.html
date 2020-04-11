@@ -1,6 +1,6 @@
 {% include sidebar.html %}
 <header class="site-header{% if include.avatar %} header-nav{% endif %}">
-    {% unless include.avatar %}<div class="wrapper"><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>{% endunless %}
+    <div class="wrapper"><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
     <nav class="site-nav">
       <button on='tap:sidebar.toggle' class="menu-icon">
@@ -18,15 +18,6 @@
         {% endfor %}
         <a href="{{ site.baseurl | append: '/blog/'}}">Blog</a>
       </div>
-    </nav>{% if include.avatar %}
-    <div class="wrapper">
-        <div class="author">
-          <a href="{{ site.baseurl | append: '/' }}">
-            <amp-img class="avatar" src="{{ site.baseurl | append:'/assets/avatar.png'}}" width="90" height="90" layout="responsive" alt="{{ site.title }}" ></amp-img>
-            <h1 class="name">{{ site.title }}</h1>
-          </a>
-          <h2 class="description">{{site.description}}</h2>
-        </div>
-    </div>{% endif %}
-  {% unless include.avatar %}</div>{% endunless %}
+    </nav>
+    </div>
 </header>
