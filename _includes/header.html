@@ -1,6 +1,6 @@
 {% include sidebar.html %}
 <header class="site-header{% if include.avatar %} header-nav{% endif %}">
-    {% unless include.avatar %}<div class="wrapper"><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a><h2 class="description">{{site.description}}</h2>{% endunless %}
+    {% unless include.avatar %}<div class="wrapper"><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
     <nav class="site-nav">
       <button on='tap:sidebar.toggle' class="menu-icon">
@@ -30,5 +30,5 @@
           <h2 class="description">{{site.description}}</h2>
         </div>
     </div>{% endif %}
-  {% unless include.avatar %}</div>{% endunless %}
+  {% unless include.avatar %}<h2 class="description">{{site.description}}</h2></div>{% endunless %}
 </header>
