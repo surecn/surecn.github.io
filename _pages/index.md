@@ -17,4 +17,4 @@ You can use this page to showcase your work, portfolio/project, your Latest post
 
 {% endfor %}
 
-<a class="trigger" style="float:right" href="/blog">更多&gt;&gt;</a>
+<a class="trigger" style="float:right" href="/blog">更多&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
