@@ -3,10 +3,6 @@ layout: default
 avatar: false
 permalink: /
 ---
-## 🚀 BLOG
-You can use this page to showcase your work, portfolio/project, your Latest post {% for post in site.posts limit: 1 %}<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>{% endfor %} or another stuff that you love to share to the world.
-
----
 
 {% for post in site.posts limit: 2 %}
 <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
@@ -17,4 +13,4 @@ You can use this page to showcase your work, portfolio/project, your Latest post
 
 {% endfor %}
 
-<a class="trigger" style="float:right" href="/blog">更多&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+<a class="trigger" style="float:right" href="/blog">更多&nbsp;&nbsp;&gt;&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
