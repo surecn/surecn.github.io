@@ -8,6 +8,7 @@ You can use this page to showcase your work, portfolio/project, your Latest post
 
 ---
 
-{% for post in site.posts limit: 2 %}<a href="{{ post.url | prepend: site.baseurl }}">
-### {{ post.title }}
+{% for post in site.posts limit: 2 %}
+<a href="{{ post.url | prepend: site.baseurl }}">
+{{ post.title }}
 </a>{% endfor %}
