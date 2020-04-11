@@ -18,12 +18,11 @@
         {% endfor %}
         <a href="{{ site.baseurl | append: '/blog/'}}">Blog</a>
       </div>
-    </nav>
-    {% if include.avatar %}
+    </nav>{% if include.avatar %}
     <div class="wrapper">
         <div class="author">
           <a href="{{ site.baseurl | append: '/' }}">
-            <!-- <amp-img class="avatar" src="{{ site.baseurl | append:'/assets/avatar.png'}}" width="90" height="90" layout="responsive" alt="{{ site.title }}" ></amp-img> -->
+            <amp-img class="avatar" src="{{ site.baseurl | append:'/assets/avatar.png'}}" width="90" height="90" layout="responsive" alt="{{ site.title }}" ></amp-img>
             <h1 class="name">{{ site.title }}</h1>
           </a>
           <h2 class="description">{{site.description}}</h2>
