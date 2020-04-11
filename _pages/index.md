@@ -19,5 +19,4 @@ You can use this page to showcase your work, portfolio/project, your Latest post
     {% else %}
         {{ post.content | strip_html | strip_newlines | truncate: 250 }}
     {% endif %}</p>
- <br/>   
 {% endfor %}
